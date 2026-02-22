@@ -1,5 +1,3 @@
-# scripts/train_resnet_threshold.py
-
 import os
 import torch
 import torch.nn as nn
