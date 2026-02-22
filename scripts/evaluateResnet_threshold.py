@@ -11,7 +11,7 @@ model = ResNetThreshold1D().to(device)
 model.load_state_dict(torch.load("models/resnet_threshold.pth", map_location=device))
 model.eval()
 
-dataset = FTIRDataset("data/dataset")
+dataset = FTIRDataset("data/dataset") #need to add dataset link here 
 loader = DataLoader(dataset, batch_size=8)
 
 
